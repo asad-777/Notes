@@ -24,27 +24,18 @@ We are learning **JavaScript specifically for React and Next.js**, focusing only
 - Destructuring (`const { a, b } = obj`)
 - Spread operator (`...arr`)
 - Rest operator (`...args`)
+- **Ternary operator**: `condition ? trueValue : falseValue`
+- **Optional chaining**: `user?.profile?.name`
+- **Nullish coalescing**: `value ?? default`
+- **Short-circuit evaluation**: `expr && doThis`, `expr || fallback`
 - **Template literals**: `` `Hello, ${name}` ``
+- **Object shorthand & computed properties**:
 
 ---
 
 ### 🔜 Next Topics to Learn
 
 #### 🧩 Syntax & Operators
-
-- **Object shorthand & computed properties**:
-
-  ```js
-  const name = "John";
-  const user = { name }; // shorthand
-  const dynamic = { [key]: value }; // computed
-  ```
-````
-
-- **Ternary operator**: `condition ? trueValue : falseValue`
-- **Optional chaining**: `user?.profile?.name`
-- **Nullish coalescing**: `value ?? default`
-- **Short-circuit evaluation**: `expr && doThis`, `expr || fallback`
 
 #### 🕒 Asynchronous JavaScript
 
@@ -65,3 +56,4 @@ We are learning **JavaScript specifically for React and Next.js**, focusing only
 ```
 
 ```
+````
