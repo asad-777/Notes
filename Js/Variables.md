@@ -11,5 +11,16 @@ There are three methods to declare variables in JavaScript
 - Tdz = temporal dead zone hoisted, hoisted but can't be accessed before declaration
 
 ```javascript
+const user = {
+  name: "Asad",
+  greet: function () {
+    return "Hi " + this.name;
+  },
+  greetArrow: () => {
+    return "Hi " + this.name;
+  },
+};
 
+console.log(user.greet()); // ✅ Outputs: "Hi Asad"
+console.log(user.greetArrow()); // ❌ Outputs: "Hi undefined"
 ```

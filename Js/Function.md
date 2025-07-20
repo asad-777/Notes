@@ -5,8 +5,8 @@ There are three methods to declare a function in js.
 ### Method 1
 
 ```javascript
-function name(parameter){
-    return `hi` + parameter;
+function name(parameter) {
+  return `hi` + parameter;
 }
 ```
 
@@ -14,8 +14,8 @@ function name(parameter){
 
 ```javascript
 const name = (parameter) => {
-    return `hi` + parameter;
-}
+  return `hi` + parameter;
+};
 ```
 
 ### Method 3
@@ -38,16 +38,20 @@ const obj = {
   },
   arrow: () => {
     console.log(this.name); // ❌ 'undefined'
-  }
+  },
 };
 
 obj.regular(); // 'Asad'
-obj.arrow();   // undefined (arrow function has no own `this`)
-
+obj.arrow(); // undefined (arrow function has no own `this`)
 ```
 
 Arrow Function Templates
 
 ```javascript
-
+const func = () => value;
+const func = (arg) => value;
+const func = (arg1, arg2) => {
+  /* multiple lines */ return value;
+};
+const func = () => ({ key: "value" }); // return object
 ```
