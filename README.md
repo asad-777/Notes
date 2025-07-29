@@ -8,7 +8,7 @@ https://chatgpt.com/c/687aaf8d-ed1c-800f-a3f2-17e92a8f9172
 
 chat that should be pasted to chatgpt
 
-````md
+```md
 ## 🧠 JavaScript for React & Next.js — Core Concepts Only
 
 We are learning **JavaScript specifically for React and Next.js**, focusing only on essential, practical concepts — **no fluff, no distractions**.
@@ -30,30 +30,17 @@ We are learning **JavaScript specifically for React and Next.js**, focusing only
 - **Short-circuit evaluation**: `expr && doThis`, `expr || fallback`
 - **Template literals**: `` `Hello, ${name}` ``
 - **Object shorthand & computed properties**:
+- `find()`, `some()`, `every()`, `includes()`, `reduce()`
 
 ---
 
 ### 🔜 Next Topics to Learn
 
-#### 🧩 Syntax & Operators
-
-#### 🕒 Asynchronous JavaScript
-
 - **Promises**
 - **async/await**
-
-#### 🔁 Array & Logic Utilities
-
-- `find()`, `some()`, `every()`, `includes()`, `reduce()`
-
-#### 🎯 Advanced Core Concepts
-
 - **Closures** (brief, practical use only)
 - **Event handling & binding**
+- **Syntax & Operators**
 - **Classes & prototypes** (React-friendly overview)
 - **Modules & imports/exports**
-
 ```
-
-```
-````
