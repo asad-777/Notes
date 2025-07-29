@@ -2,20 +2,10 @@
 
 these are my different subject notes in md files
 
-# chatgpt chat url
-
-https://chatgpt.com/c/687aaf8d-ed1c-800f-a3f2-17e92a8f9172
-
-chat that should be pasted to chatgpt
-
 ```md
-## 🧠 JavaScript for React & Next.js — Core Concepts Only
+# ✅ What We've Covered So Far
 
-We are learning **JavaScript specifically for React and Next.js**, focusing only on essential, practical concepts — **no fluff, no distractions**.
-
----
-
-### ✅ What We've Covered So Far
+### Javascript
 
 - `const`, `let`, `var` — variable declarations
 - `this` — context in functions and objects
@@ -31,11 +21,6 @@ We are learning **JavaScript specifically for React and Next.js**, focusing only
 - **Template literals**: `` `Hello, ${name}` ``
 - **Object shorthand & computed properties**:
 - `find()`, `some()`, `every()`, `includes()`, `reduce()`
-
----
-
-### 🔜 Next Topics to Learn
-
 - **Promises**
 - **async/await**
 - **Closures** (brief, practical use only)
